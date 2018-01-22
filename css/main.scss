@@ -33,7 +33,7 @@ section {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    color: white;
+
 }
 
 .nav__item {
@@ -45,14 +45,10 @@ section {
 }
 
 .nav__link {
-    color: white;
-    width: 510px;
-    height: 11px;
     color: #ffffff;
     font-family: Ubuntu;
     font-size: 13px;
     font-weight: 500;
-    line-height: 30px;
     text-transform: uppercase;
     text-decoration: none;
 
@@ -81,11 +77,9 @@ section {
     flex: 1;
 }
 .greeting__title {
-   /* margin-top: 228px;*/
     display: flex;
     flex-direction: column;
-    height: 220px;
-    width: 400px;
+
 }
 
 
@@ -112,9 +106,12 @@ section {
     
 }
 
-.arrow {
+.intro__arrow {
     display: flex;
     justify-content: center;
+}
+
+.arrow {
     margin-top: 95px;
 }
 
@@ -148,14 +145,13 @@ section {
     padding: 0;
     margin: 0;
     display: flex;
-    flex: 3;
     list-style-type: none;
     text-align: center;
     
     
 }
 
-.list__item {
+.best__item {
     text-align: center;
 }
 
@@ -166,6 +162,15 @@ section {
     font-weight: 500;
     line-height: 28.14px;
     letter-spacing: -0.6px;
+}
+
+.best__description {
+    opacity: 0.8;
+    color: #2f3234;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 24.02px;
 }
 
 .reviews {
@@ -205,6 +210,8 @@ section {
     visibility: visible; 
 }
 
+
+
 .reviews__link {
     width: 110px;
     height: 35px;
@@ -216,6 +223,11 @@ section {
     text-decoration: none;
     padding: 13px 15px 13px 11px;
 }
+
+
+
+
+
   
 .number__page_list {
 	position: fixed;
@@ -235,5 +247,6 @@ li.number__page_list_item {
     z-index: 300;
     position: relative;
 }
+
 
 
