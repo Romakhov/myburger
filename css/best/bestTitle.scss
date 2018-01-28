@@ -1,0 +1,21 @@
+.best {
+    background-image: url("../img/backgroung/bg.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.best__container {
+    display: flex;
+    flex-direction: column;
+}
+.section__title {
+    text-align: center;
+    color: #2f3234;
+    font-family: Gagalin;
+    font-size: 72px;
+    font-weight: 400;
+    padding-bottom: 57px;
+    margin-top: 0;
+   
+}

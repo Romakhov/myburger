@@ -1,0 +1,51 @@
+
+.accordeon {
+    margin-top: 57px;
+} 
+
+.accordeon__item {
+    list-style-image: url("../img/icons/polygon.png");
+    /*padding-bottom: 40px;*/
+} 
+.accordeon__name_title {
+    color: #ffffff;
+    font-family: Gagalin;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28.13px;
+
+}
+
+.accordeon__block_team {
+    display: flex;
+    height: 95px;
+
+}
+
+.accordeon__block_team_hidden {
+    display: flex;
+    height: 95px;
+    display: none;
+    overflow: hidden;
+}
+
+
+.accordeon__block_team_hidden {
+    display: flex;
+    height: 95px; 
+}
+
+.accordeon__photo {
+    width: 100px;
+    height: 100px;
+    margin-right: 21px;
+}
+
+.accordeon__description {
+  width: 208px;
+    color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.01px;
+}

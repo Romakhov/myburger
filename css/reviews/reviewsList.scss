@@ -1,0 +1,19 @@
+.reviews {
+    min-height: 650px;
+    height: 100%;
+}
+
+.reviews-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap; 
+}
+  
+  .reviews__item {
+    width: 25%;
+    height: 50%;
+    background-size: cover; 
+}
