@@ -249,14 +249,14 @@ li.number__page_list_item {
 }
 
 .team {
-    background-image: url("../img/bg/team-bg.png");
+    background-image: url("../img/backgroung/team-bg.png");
     background-size: cover;
     display: flex;
     justify-content: flex-end;
 }
 
 .team-content {
-    background-image: url("..img/bg/rectangle.png");
+    background-image: url("..img/backgroung/rectangle.png");
     position: absolute;
     width: 540px;
     height: 650px;
@@ -333,7 +333,7 @@ accordeon__block_team_hidden {
 }
 
 .menu {
-    background-image: url("../img/bg/burger-bg.png");
+    background-image: url("../img/backgroung/burger-bg.png");
     background-size: cover;
     display: flex;
     justify-content: flex-end;
@@ -376,7 +376,7 @@ accordeon__block_team_hidden {
 }
 
 .contancts {
-    background-image: url("../img/bg/card.png");
+    background-image: url("../img/backgroung/card.png");
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -416,7 +416,7 @@ accordeon__block_team_hidden {
 }
 
 .form {
-    /*background-image: url("../img/bg/bg-texture.png");*/
+    /*background-image: url("../img/backgroung/bg-texture.png");*/
     /*background-size: cover;*/
     background: #000;
 }
@@ -462,7 +462,7 @@ accordeon__block_team_hidden {
 
 
 .slider {
-    background-image: url(../img/bg/bg-slider.png);
+    background-image: url(../img/backgroung/bg-slider.png);
     background-size: cover;
 }
 
@@ -539,4 +539,5 @@ accordeon__block_team_hidden {
     line-height: 29.96px;
     text-transform: uppercase;
 }
+
 
