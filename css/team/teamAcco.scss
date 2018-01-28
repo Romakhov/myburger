@@ -1,7 +1,5 @@
 
-.accordeon {
-    margin-top: 57px;
-} 
+
 
 .accordeon__item {
     list-style-image: url("../img/icons/polygon.png");
@@ -30,7 +28,7 @@
 }
 
 
-.accordeon__block_team_hidden {
+accordeon__block_team_hidden {
     display: flex;
     height: 95px; 
 }

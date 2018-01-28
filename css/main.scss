@@ -5,11 +5,36 @@ body {
 section {
     min-height: 650px;
     height: 100%;
+
+}
+
+$phone-width: 480px;
+@mixin phone {
+    @media (max-width: #{$phone-width - 1px}) {
+      @content;
+    }
+  }
+
+  $baseFontSize : 14;
+@function rem($pixels, $context: $baseFontSize) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1rem;
+}
+
+.class{
+ font-size:rem(38);
 }
 
 @import "layouts/header";
 @import "layouts/greeting";
-@import "layots/arrow";
+@import "layouts/arrow";
 
 @import "best/bestTitle";
 @import "best/bestList";
@@ -17,22 +42,39 @@ section {
 @import "reviews/reviewsList";
 @import "reviews/reviewsDescription";
 
-@import "reviews/paginator";
+@import "paginator/paginator"; 
 
-@import "reviews/team";
-@import "reviews/teamAcco";
+@import "team/team"; 
+@import "team/teamAcco";
 
 @import "menu/menu";
 
-@import "contacnts/contacts";
-@import "contacnts/footer";
+
+@import "contacts/contacts";
+@import "contacts/footers";
 
 @import "form/form";
 @import "form/formContent";
 
-@import "slider/slider";
+@import "slider/slider.scss";
 
 
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
 
 
   
