@@ -7,117 +7,13 @@ section {
     height: 100%;
 }
 
-.intro {
-    background-image: url("../img/backgroung/video-bg.jpg");
-    background-size: cover;
-}
-
-.container {
-    width: 940px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.logo__img {
-    margin-top: 12px;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-}
-.nav-list {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-
-}
-
-.nav__item {
-    margin-right: 37px; 
-
-    &:last-child {
-        margin-right: 17px;
-    }
-}
-
-.nav__link {
-    color: #ffffff;
-    font-family: Ubuntu;
-    font-size: 13px;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-decoration: none;
-
-}
-
-.nav__button {
-    width: 97px;
-    height: 35px;
-    background-color: #c1401e;
-    border-radius: 5px;
-    color: #ffffff;
-    font-family: Ubuntu;
-    font-size: 13px;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 13px; 
-}
-
-.greeting__container {
-    display: flex;
-    align-items: center;
-}
-
-.greeting__column {
-    flex: 1;
-}
-.greeting__title {
-    display: flex;
-    flex-direction: column;
-
-}
+@import "layouts/header";
+@import "layouts/greeting";
+@import "layots/arrow";
 
 
-.greeting__title_type-orange {
-    color: #f9b43b;
-    font-family: Gagalin;
-    font-size: 72px;
-    font-weight: 400;
-    line-height: 85px;
-}
 
-.greeting__title_type-white {
-    width: 406px;
-    height: 213px;
-    color: #ffffff;
-    font-family: Lifehack;
-    font-size: 65px;
-    font-weight: 500;
 
-}
-.greeting__image-drops {
-    position: absolute;
-    top: 144px;
-    
-}
-
-.intro__arrow {
-    display: flex;
-    justify-content: center;
-}
-
-.arrow {
-    margin-top: 95px;
-}
-
-.arrow__image {
-    position: absolute;
-}
 
 .best {
     background-image: url("../img/backgroung/bg.png");
@@ -539,5 +435,4 @@ accordeon__block_team_hidden {
     line-height: 29.96px;
     text-transform: uppercase;
 }
-
 

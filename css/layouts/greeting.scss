@@ -1,0 +1,37 @@
+.greeting__container {
+    display: flex;
+    align-items: center;
+}
+
+.greeting__column {
+    flex: 1;
+}
+.greeting__title {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.greeting__title_type-orange {
+    color: #f9b43b;
+    font-family: Gagalin;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 85px;
+}
+
+.greeting__title_type-white {
+    width: 406px;
+    height: 213px;
+    color: #ffffff;
+    font-family: Lifehack;
+    font-size: 65px;
+    font-weight: 500;
+
+}
+.greeting__image-drops {
+    position: absolute;
+    top: 144px;
+    
+}
