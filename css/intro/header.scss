@@ -31,11 +31,29 @@
 }
 
 .nav__item {
-    margin-right: 37px; 
-
     &:last-child {
         margin-right: 17px;
     }
+    display: flex;
+    align-items: center;
+
+    &:before {
+        content: "";
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: #fff;
+        display: block;
+        margin: 0 20px;
+    }
+
+    &:first-child {
+        &:before {
+            display: none;
+        }
+
+    }
+
 }
 
 .nav__link {
@@ -48,16 +66,3 @@
 
 }
 
-.nav__button {
-    width: 97px;
-    height: 35px;
-    background-color: #c1401e;
-    border-radius: 5px;
-    color: #ffffff;
-    font-family: Ubuntu;
-    font-size: 13px;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 13px; 
-}

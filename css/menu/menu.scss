@@ -4,8 +4,19 @@
     background-image: url("../img/backgroung/burger-bg.png");
     background-size: cover;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
+
+.menu-title {
+    color: #ffffff;
+    font-family: Gagalin;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 64px;
+    margin-top: 111px;
+    margin-left: 94px; 
+}
+
 
 .menu-list {
     list-style-type: none;

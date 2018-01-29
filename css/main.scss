@@ -1,3 +1,7 @@
+html,body {
+  height: 100%;
+}
+
 body {
     margin: 0;
 }
@@ -5,6 +9,15 @@ body {
 section {
     min-height: 650px;
     height: 100%;
+
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-width: 940px + 20px;
+  min-height: 100%;
 
 }
 
@@ -32,9 +45,11 @@ $phone-width: 480px;
  font-size:rem(38);
 }
 
-@import "layouts/header";
-@import "layouts/greeting";
-@import "layouts/arrow";
+@import "intro/header";
+@import "intro/greeting";
+@import "intro/arrow";
+@import "intro/order";
+
 
 @import "best/bestTitle";
 @import "best/bestList";

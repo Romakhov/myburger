@@ -3,22 +3,24 @@
 .footer {
     background-image: url("../img/content/chalkboard.png");
     width: 100%;
+    background-size: cover;
 }
 
-.footer-container {
-    width: 940px;
-    margin: 10px 80px;
+.footer__column {
     display: flex;
-    justify-content: space-between;
+   /*align-items: center;*/
+    flex-direction: column;
+    margin-top: 10px;
+
 }
+
 
 
 .footer__adress {
     color: #ffffff;
     font-family: Ubuntu;
     font-size: 14px;
-    font-weight: 300;
-    line-height: 24px;
+    margin: 0;
 }
 
 .footer__phone {
@@ -26,7 +28,32 @@
     font-weight: 700;
 }
 
+.icon__list {
+    width: 142px;
+    height: 20px;
+    display: flex;
+    list-style-type: none;
+
+}
+
 .icon__image {
     padding-right: 20px;
     
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    fill: grey;
+    width: 25px;
+    height: 23px;
+    &:hover {
+        fill: #fff;
+    }
+    opacity: 0.3;
+
+   /* &:first-child {
+        margin-right: 0;
+    }*/
 }

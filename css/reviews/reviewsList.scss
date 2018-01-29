@@ -9,6 +9,7 @@
     list-style-type: none;
     display: flex;
     height: 100%;
+    width: 100%;
     flex-wrap: wrap; 
 
 }
@@ -16,7 +17,13 @@
   .reviews__item {
     width: 25%;
     height: 50%;
-    background-size: cover; 
+    background-size: cover;
+    &:hover {
+        .reviews__description {
+            opacity: 1;
+        }
+    }
+    
 
     @include phone {
         width: 50%;
