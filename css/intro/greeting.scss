@@ -5,6 +5,7 @@
     @include phone {
         flex-direction: column;
         align-items: center;
+        width: 480px;
     }  
 }
 
@@ -37,6 +38,11 @@
     font-size: 72px;
     font-weight: 400;
     line-height: 85px;
+
+    @include phone {
+        font-size: 60px;
+
+    } 
 }
 
 .greeting__title_type-white {
@@ -47,6 +53,10 @@
     font-size: 65px;
     font-weight: 500;
 
+    @include phone {
+        font-size: 55px;
+
+    } 
 }
 .greeting__image-drops {
     position: absolute;
@@ -60,4 +70,9 @@
     justify-content: center;
     flex: 1;
     
+}
+
+.team__container {
+    width: 940px;
+    margin: 0 auto;
 }
