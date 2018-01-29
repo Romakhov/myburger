@@ -106,7 +106,10 @@ section {
       -webkit-box-pack: start;
       -ms-flex-pack: start;
       justify-content: flex-start;
-      width: 30%; } }
+      width: 85%;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start; } }
 
 .greeting__column {
   -webkit-box-flex: 1;
@@ -132,6 +135,11 @@ section {
   -ms-flex-direction: column;
   flex-direction: column;
   margin-top: 100px; }
+  @media (max-width: 479px) {
+    .greeting__title {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
 
 .greeting__title_type-orange {
   color: #f9b43b;
@@ -167,6 +175,10 @@ section {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1; }
+  @media (max-width: 479px) {
+    .greeting {
+      width: 30rem;
+      margin: 0; } }
 
 .team__container {
   width: 940px;
