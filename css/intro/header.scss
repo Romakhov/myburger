@@ -8,10 +8,12 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    @include phone {
-      /*  flex-direction: column;
-        align-items: center;*/
-        width: 480px;
+
+   /* @include phone {
+      flex-direction: column;
+        align-items: center;
+    
+    }*/
     
 }
 
