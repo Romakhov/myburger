@@ -115,12 +115,6 @@ section {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1; }
-  @media (max-width: 479px) {
-    .greeting__column {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column; } }
 
 @media (max-width: 479px) {
   .greeting__image {

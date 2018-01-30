@@ -13,10 +13,7 @@
 
 .greeting__column {
     flex: 1;
-    @include phone {
-        flex-direction: column;
-
-    }   
+   
 
 }
 
