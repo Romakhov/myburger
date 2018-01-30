@@ -4,11 +4,6 @@
     display: flex;
     list-style-type: none;
     text-align: center;
-
-    @include phone {
-        display: flex;
-        flex-direction: column;
-    }
     
     
 }
@@ -16,11 +11,7 @@
 .best__item {
     text-align: center;
     padding-bottom: 57px;
-   
-    @include phone {
-        display: flex;
-        flex-direction: row;
-    }   
+      
 
 }
 

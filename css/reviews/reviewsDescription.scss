@@ -8,10 +8,6 @@
     line-height: 24px;
    margin: 90px 20px 102px 20px;
 
-    @include phone {
-       height: 0;
-       
-    } 
 }
 
 .reviews__name {
@@ -23,12 +19,7 @@
 }
 
 .reviews__text {
-    @include phone {
-        height: 0;
-        overflow: hidden;
-        
-        
-     } 
+    
 }
   
   .reviews__item:hover .reviews__description {

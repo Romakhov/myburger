@@ -9,10 +9,6 @@ body {
 section {
     min-height: 650px;
     height: 100%;
-
-
- 
-
 }
 
 .wrapper {
@@ -23,6 +19,8 @@ section {
   min-height: 100%;
 
 }
+
+
 
 $phone-width: 480px;
 @mixin phone {
@@ -75,6 +73,8 @@ $phone-width: 480px;
 @import "form/formContent";
 
 @import "slider/slider.scss";
+
+@import "layouts/media";
 
 
 $tablet-width: 768px;

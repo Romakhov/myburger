@@ -1,15 +1,10 @@
+.greeting {
+    width: 95%;
+}
+
 .greeting__container {
     display: flex;
-    align-items: center;
-
-    @include phone {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-       width: rem(940);
-        align-items: flex-start;
-
-    }  
+ 
 }
 
 .greeting__column {
@@ -18,21 +13,10 @@
 
 }
 
-.greeting__image {
-    @include phone {
-        width: 100%;
-
-    }   
-}
 .greeting__title {
     display: flex;
    flex-direction: column;
    margin-top: 100px;
-
-   @include phone {
-    align-items: center;
-
-}
 
 }
 
@@ -44,10 +28,6 @@
     font-weight: 400;
     line-height: 85px;
 
-   @include phone {
-        font-size: 3.0625rem;
-
-    } 
 }
 
 .greeting__title_type-white {
@@ -58,10 +38,6 @@
     font-size: 65px;
     font-weight: 500;
 
-    @include phone {
-        font-size: 3.4375rem;
-
-    } 
 }
 .greeting__image-drops {
     position: absolute;
@@ -75,15 +51,9 @@
     justify-content: center;
     flex: 1;
 
-   @include phone {
-        width: 30rem;
-        margin: 0;
+    @include phone {
+        width: 95%;
+    }
 
-    } 
     
-}
-
-.team__container {
-    width: 940px;
-    margin: 0 auto;
 }
