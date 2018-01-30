@@ -4,6 +4,10 @@
 
 .greeting__container {
     display: flex;
+
+    @include phone {
+        flex-direction: column;
+    }
  
 }
 
