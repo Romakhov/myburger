@@ -3,8 +3,9 @@
     background-size: cover;
 }
 
-.container {
-    width: 940px;
+
+.header__container {
+    width: rem(940);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -24,9 +25,9 @@
 .nav {
     display: flex;
     align-items: center;
-    @include phone {
+    /*@include phone {
         display: none;
-    }
+    }*/
 }
 .nav-list {
     display: flex;

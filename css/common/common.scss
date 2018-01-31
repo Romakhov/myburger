@@ -1,0 +1,39 @@
+html,body {
+    height: 100%;
+    @include phone {
+        /*width: 90%;*/
+        max-width: 90%;
+
+    }
+  
+  }
+  
+  body {
+      margin: 0;
+      
+  }
+  
+  section {
+      min-height: 650px;
+      height: 100vh;
+      @include phone {
+          max-width: 50%;
+
+    }
+
+  
+  }
+  
+  
+  
+  
+  
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-width: 940px + 20px;
+    min-height: 100%;
+
+
+  }
