@@ -150,7 +150,8 @@
   margin-top: 14.28571rem; }
 
 .arrow__image {
-  position: absolute; }
+  position: absolute;
+  margin-top: 1px; }
 
 .order {
   background-color: #c1401e;
