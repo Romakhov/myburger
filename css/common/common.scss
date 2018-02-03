@@ -16,24 +16,21 @@ html,body {
   section {
       min-height: 650px;
       height: 100vh;
-      @include phone {
-          max-width: 50%;
 
-    }
 
   
   }
-  
-  
-  
-  
-  
+
   .wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
-    min-width: 940px + 20px;
+    min-width: 960px;
     min-height: 100%;
+
+   @include phone {
+       min-width: inherit;
+   }
 
 
   }

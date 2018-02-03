@@ -712,9 +712,6 @@ body {
 section {
   min-height: 650px;
   height: 100vh; }
-  @media (max-width: 479px) {
-    section {
-      max-width: 50%; } }
 
 .wrapper {
   position: relative;
@@ -722,3 +719,6 @@ section {
   width: 100%;
   min-width: 960px;
   min-height: 100%; }
+  @media (max-width: 479px) {
+    .wrapper {
+      min-width: inherit; } }
