@@ -152,7 +152,7 @@
 
 @media (max-width: 479px) {
   .greeting__image {
-    width: 23rem; } }
+    width: 40rem; } }
 
 .intro__arrow {
   display: -webkit-box;
