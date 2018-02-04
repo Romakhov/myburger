@@ -108,7 +108,7 @@
   margin-top: 100px; }
   @media (max-width: 479px) {
     .greeting__title {
-      width: 23rem; } }
+      width: 24rem; } }
 
 .greeting__title_type-orange {
   color: #f9b43b;
