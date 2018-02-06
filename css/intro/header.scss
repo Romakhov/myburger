@@ -1,20 +1,6 @@
-.intro {
-    background-image: url("../img/backgroung/video-bg.jpg");
-    background-size: cover;
-}
-
-
-.header__container {
-    width: rem(940);
-    margin: 0 auto;
+.header {
     display: flex;
     justify-content: space-between;
-
-   @include phone {
-    width: 100%;
-    
-    }
-    
 }
 
 .logo__img {

@@ -1,13 +1,15 @@
+
 .intro__arrow {
-    display: flex;
-    justify-content: center;
-}
-
-.arrow {
-    margin-top: rem(200px);
-}
-
-.arrow__image {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-top: 0.125rem solid white;
+    border-right: 0.125rem solid white;
+    background: transparent;
+    transform: rotate(135deg);
     position: absolute;
-    margin-top: 1px;
+    bottom: 2.5rem;
+    left: 50%;
+    margin-left: -0.625rem;
+    border-radius: 0.1875rem;
+
 }

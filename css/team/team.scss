@@ -2,31 +2,26 @@
     background-image: url("../img/backgroung/team-bg.png");
     background-size: cover;
     display: flex;
-    justify-content: flex-end;
+    position: relative;
 }
-
-.team-content {
-    background-image: url("..img/backgroung/rectangle.png");
-    position: absolute;
-    width: 540px;
-    height: 650px;
-    background-color: #2f3234;
-    opacity: 0.93;
-    display: flex;
-
-}
-
 .team__container {
+    position: absolute;
+    width: none;
+    top: 0;
+    bottom: 0;
+    right: 0;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding-left: 5rem;
+    background-color: #2f3234;
+    opacity: 0.93;
+}
 
-    @include phone {
-        display: flex;
-        align-items: center;
-    }
+.team__content {
+    display: flex;
+    flex-direction: column;
 }
 
 .title__team {
@@ -35,3 +30,5 @@
     font-size: 72px;
     font-weight: 400;
 }
+
+

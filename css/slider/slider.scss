@@ -1,19 +1,16 @@
 
-
-
-
 .slider {
     background-image: url(../img/backgroung/bg-slider.png);
     background-size: cover;
 }
 
-.slider-container {
+.slider-content {
     display: flex;
-    width: 1009px;
-    height: 457px;
     margin: 0 auto;
-    /*text-align: center;*/
     align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+
 }
 
 .slider__burger {
