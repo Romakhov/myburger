@@ -1,10 +1,8 @@
-
-
 .menu {
     background-image: url("../img/backgroung/burger-bg.png");
     background-size: cover;
     display: flex;
-    justify-content: space-between;
+
 }
 
 .menu-title {
@@ -17,6 +15,11 @@
     margin-left: 94px; 
 }
 
+.accordeon-menu {
+    margin-left: auto;
+    display: flex;
+}
+
 
 .menu-list {
     list-style-type: none;
@@ -26,8 +29,13 @@
 }
 
 .menu__item {
-    width: 80px;
-    height: 650px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu__item_description {
@@ -52,4 +60,6 @@
     line-height: 63.75px;
     margin-top: 510px;
     white-space: nowrap;
+    text-decoration: none;
 }
+

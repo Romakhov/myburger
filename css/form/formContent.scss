@@ -1,6 +1,22 @@
+.form__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-.form__colunm {
-    flex: 1;
+
+.form__column {
+    display: flex;
+
+}
+
+.form__column_left {
+    width: 50%;
+}
+
+.form__column_right {
+    width: 50%;
 }
 
 .form__title {
