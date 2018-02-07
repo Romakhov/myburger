@@ -1,3 +1,8 @@
 .owl-carousel div {
     height: 50%;
 }
+
+.owl-carousel {
+    display: flex;
+    align-items: center;
+}
