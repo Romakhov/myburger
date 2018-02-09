@@ -9,6 +9,7 @@
         width: 30rem;
         margin: 0;
         flex-direction: column;
+        justify-content: flex-start;
 }
 
 }
@@ -46,8 +47,6 @@
 }
 
 .greeting__title_type-white {
-    width: 406px;
-    height: 213px;
     color: #ffffff;
     font-family: Lifehack;
     font-size: 65px;

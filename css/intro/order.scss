@@ -8,4 +8,8 @@
     text-align: center;
     text-decoration: none;
     padding: 13px 16px 13px 15px;
+
+    @include phone {
+        margin-left: 15px;
+    }
 }

@@ -39,3 +39,10 @@ html,body {
         width: 98%;
     } 
   }
+
+  .hamburger__menu {
+    display: none;
+    @include phone {
+      display: inline-block;
+    }
+  }
