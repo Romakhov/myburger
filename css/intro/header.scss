@@ -10,15 +10,17 @@
 .nav {
     display: flex;
     align-items: center;
-    @include phone {
-        display: none;
-    }
+
 }
 .nav-list {
     display: flex;
     list-style-type: none;
     padding: 0;
     margin: 0;
+
+    @include phone {
+        display: none;
+    }
 
 }
 
