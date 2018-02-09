@@ -11,8 +11,13 @@
     font-size: 72px;
     font-weight: 400;
     line-height: 64px;
-    margin-top: 111px;
-    margin-left: 94px; 
+    padding-top: 111px;
+    padding-left: 94px; 
+    @include phone {
+        padding-top: 3rem;
+        padding-left: 2rem;
+        font-size: 3rem;
+    }
 }
 
 .accordeon-menu {
@@ -36,6 +41,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @include phone {
+        width: 2.5rem;
+    }
+
 }
 
 .menu__item_description {

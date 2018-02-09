@@ -2,9 +2,6 @@ html,body {
     height: 100%;
     font-size: 1rem;
     margin: 0;
-    @include phone {
-        max-width: 90%;
-    } 
   }
   
   
@@ -39,6 +36,6 @@ html,body {
       height: 100%;
 
       @include phone {
-        width: 100%;
+        width: 98%;
     } 
   }

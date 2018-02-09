@@ -474,8 +474,13 @@ accordeon__block_team_hidden {
   font-size: 72px;
   font-weight: 400;
   line-height: 64px;
-  margin-top: 111px;
-  margin-left: 94px; }
+  padding-top: 111px;
+  padding-left: 94px; }
+  @media (max-width: 479px) {
+    .menu-title {
+      padding-top: 3rem;
+      padding-left: 2rem;
+      font-size: 3rem; } }
 
 .accordeon-menu {
   margin-left: auto;
@@ -504,6 +509,9 @@ accordeon__block_team_hidden {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media (max-width: 479px) {
+    .menu__item {
+      width: 2.5rem; } }
 
 .menu__item_description {
   width: 200px;
@@ -796,9 +804,6 @@ html, body {
   height: 100%;
   font-size: 1rem;
   margin: 0; }
-  @media (max-width: 479px) {
-    html, body {
-      max-width: 90%; } }
 
 section {
   height: 100vh;
@@ -823,4 +828,4 @@ section {
   height: 100%; }
   @media (max-width: 479px) {
     .container {
-      width: 100%; } }
+      width: 98%; } }
