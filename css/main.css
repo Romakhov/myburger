@@ -76,7 +76,6 @@
   margin-top: -5,625rem; }
   @media (max-width: 479px) {
     .greeting {
-      width: 30rem;
       margin: 0;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;

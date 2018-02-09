@@ -6,7 +6,6 @@
     margin-top: -5,625rem;
 
     @include phone {
-        width: 30rem;
         margin: 0;
         flex-direction: column;
         justify-content: flex-start;
