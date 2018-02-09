@@ -6,6 +6,10 @@
     line-height: 28.13px;
     text-decoration: none;
     display: flex;
+
+    @include phone {
+        font-size: 1,478125rem;
+    }
 }
 
 .accordeon__name_title:before {
@@ -22,6 +26,11 @@
 .accordeon__block_team {
     display: flex;
     height: 95px;
+
+    @include phone {
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 
@@ -51,10 +60,28 @@ accordeon__block_team_hidden {
     font-size: 14px;
     font-weight: 300;
     line-height: 24.01px;
+
+    @include phone {
+        font-size: 0,87875rem;
+        text-align: center;
+    }
 }
 
+.accordeon {
+    @include phone {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+}
 .accordeon-list {
     list-style-type: none;
+    @include phone {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 .accordeon__item {

@@ -10,6 +10,7 @@
     display: flex;
     @include phone {
         flex-direction: column;
+        width: 95%;
     }
 
 }
@@ -32,6 +33,9 @@
 .form__title {
     color: #fff;
     display: inline-block;
+    @include phone {
+        font-size: 3,125rem;
+    }
 }
 
 .form__block {
