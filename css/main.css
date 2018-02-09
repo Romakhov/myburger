@@ -634,12 +634,24 @@ accordeon__block_team_hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  @media (max-width: 479px) {
+    .form__column {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .form__column_left {
   width: 50%; }
+  @media (max-width: 479px) {
+    .form__column_left {
+      width: 100%; } }
 
 .form__column_right {
   width: 50%; }
+  @media (max-width: 479px) {
+    .form__column_right {
+      width: 100%; } }
 
 .form__title {
   color: #fff;

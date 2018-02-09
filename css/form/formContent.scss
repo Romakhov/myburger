@@ -8,15 +8,25 @@
 
 .form__column {
     display: flex;
+    @include phone {
+        flex-direction: column;
+    }
 
 }
 
 .form__column_left {
     width: 50%;
+    @include phone {
+        width: 100%;
+
+    }
 }
 
 .form__column_right {
     width: 50%;
+    @include phone {
+        width: 100%;
+    }
 }
 
 .form__title {
