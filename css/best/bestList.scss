@@ -63,16 +63,28 @@
     fill: #e25028;
     width: 107px;
     height: 91px;
+    @include phone {
+    width: 6,75rem;
+    height: 5,8125rem; 
+    }
 }
 
 .best__image_hand {
     fill: #f8b53d;
     width: 107px;
     height: 91px;
+    @include phone {
+        width: 6,75rem;
+        height: 5,8125rem; 
+    }
 }
 
 .best__image_natural {
     fill: #96c552;
     width: 107px;
     height: 91px;
+    @include phone {
+    width: 6,75rem;
+    height: 5,8125rem; 
+    }
 }

@@ -11,7 +11,7 @@
 
 
 }
-.section__title {
+.best__title {
     text-align: center;
     color: #2f3234;
     font-family: Gagalin;
@@ -21,7 +21,7 @@
 
     @include phone {
         margin-top: 0;
-        font-size: 3,125rem;
+        font-size: 3rem;
     }
    
 }

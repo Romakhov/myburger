@@ -6,6 +6,12 @@
 
 .footer__container {
     display: flex;
+    justify-content: space-between;
+
+    @include phone {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .footer__column {
@@ -27,6 +33,9 @@
 .footer__phone {
     color: #e45028;
     font-weight: 700;
+    @include phone {
+        margin: 0 auto;
+    }
 }
 
 .icon__list {
@@ -34,6 +43,9 @@
     height: 20px;
     display: flex;
     list-style-type: none;
+    @include phone {
+        margin-left: -1.8rem;
+    }
 
 }
 

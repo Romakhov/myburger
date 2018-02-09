@@ -81,7 +81,7 @@
     margin-bottom: 51px;
 
     @include phone {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 }
 
@@ -90,12 +90,15 @@
 }
 
 .clear {
-    color: #ffffff;
-    font-family: Ubuntu;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 24px;
-    margin-left: 20px;
+    display: inline-block;
+    padding: 0.6rem 0.9rem 0.6rem 0.9rem;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 0.3125rem;
+    background: transparent;
+    border: 0;
+    font-weight: 400;
+    font-size: 0.8rem;
 }
 
 .icon__phone {
@@ -109,3 +112,5 @@
     color: #e45028;
     display: flex;
 }
+
+
