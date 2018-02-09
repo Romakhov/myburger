@@ -27,15 +27,13 @@
     width: 50%;
     @include phone {
         width: 100%;
+        
     }
 }
 
 .form__title {
     color: #fff;
     display: inline-block;
-    @include phone {
-        font-size: 3,125rem;
-    }
 }
 
 .form__block {
@@ -61,6 +59,10 @@
 .form__row {
     margin-bottom: 20px;
     display: flex;
+
+    @include phone {
+        width: 100%;
+    } 
 }
 
 .form__input {
@@ -70,13 +72,17 @@
     border-radius: 5px;
     width: 100%;
 }
-.section-title {
+.form__main-title {
     text-align: center;
     color: #f9b43b;
     font-family: Gagalin;
     font-size: 72px;
     margin: 0;
     margin-bottom: 51px;
+
+    @include phone {
+        font-size: 3.5rem;
+    }
 }
 
 .comment {

@@ -7,6 +7,13 @@ $phone-width: 480px;
     }
   }
 
+$tablet-width: 768px;
+@mixin phone {
+    @media (max-width: #{$tablet-width - 1px}) {
+      @content;
+    }
+  }
+
   $baseFontSize : 14;
 @function rem($pixels, $context: $baseFontSize) {
   @if (unitless($pixels)) {
@@ -57,13 +64,12 @@ $phone-width: 480px;
 @import "slider/carousel.scss";
 
 @import "common/common";
-@import "css/fonts.css";
+@import "fonts";
 
 
 
 
 
-$tablet-width: 768px;
 $desktop-width: 1024px;
 
 
