@@ -874,10 +874,12 @@ accordeon__block_team_hidden {
 
 .slider {
   background-image: url(../img/backgroung/bg-slider.png);
-  background-size: cover; }
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .slider__container {
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -889,11 +891,55 @@ accordeon__block_team_hidden {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media (max-width: 767px) {
+    .slider__content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+
+.burger__characters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 485px; }
+  @media (max-width: 767px) {
+    .burger__characters {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      height: 0; } }
+
+.consist {
+  width: 92px;
+  height: 92px; }
+
+.consist__image {
+  fill: #fff;
+  width: 3.8rem;
+  opacity: .5; }
+
+.title__kkal {
+  color: #fff;
+  font-size: 14px;
+  font-family: Gagalin;
+  padding: 0;
+  margin: 0;
+  position: absolute; }
+
+.slider__image {
+  padding-right: 20px;
+  /*width: 462px;*/ }
 
 .slider__description {
-  width: 495px;
-  height: 355px;
-  margin-top: 145px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -909,18 +955,23 @@ accordeon__block_team_hidden {
   font-weight: 400;
   line-height: 63.93px;
   padding-bottom: 56px; }
+  @media (max-width: 767px) {
+    .slider__description_title {
+      font-size: 2,125rem;
+      margin: 0;
+      margin-top: 1.5rem; } }
 
 .slider__description_content {
   color: #ffffff;
   font-family: Ubuntu;
   font-size: 14px;
   font-weight: 300;
-  line-height: 23.97px;
-  padding-bottom: 36px; }
+  line-height: 23.97px; }
+  @media (max-width: 767px) {
+    .slider__description_content {
+      font-size: 0,875rem; } }
 
 .slider__order {
-  width: 330px;
-  height: 62px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -940,27 +991,14 @@ accordeon__block_team_hidden {
   letter-spacing: -1.79px;
   letter-spacing: -0.75px; }
 
-.slider-arrow-left {
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-  margin-right: 15px; }
-
-.slider-arrow-right {
-  -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  transform: rotate(270deg); }
-
-.owl-carousel div {
-  height: 50%; }
-
 .owl-carousel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  margin-top: 50px; }
 
 html, body {
   height: 100%;
@@ -1027,3 +1065,30 @@ section {
   src: url("../fonts/ubuntu-b-webfont.woff") format("woff");
   font-weight: bold;
   font-style: normal; }
+
+.arrow {
+  width: 70px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.arrow__image_left {
+  fill: #fff;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 2rem; }
+
+.arrow__image_right {
+  fill: #fff;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  width: 2rem; }
