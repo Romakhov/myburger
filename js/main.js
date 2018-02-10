@@ -1,9 +1,9 @@
-/*$(document).ready(function(){
+$(document).ready(function(){
     $(".owl-carousel").owlCarousel({
       items:1,
       nav:true
     });
-  });*/
+  });
 
   var hamburger = document.querySelector("#hamburger__link");
   hamburger.addEventListener("click", function(event){
