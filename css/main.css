@@ -898,7 +898,13 @@ accordeon__block_team_hidden {
       -ms-flex-direction: column;
       flex-direction: column; } }
 
-.burger__characters {
+.slider__column {
+  width: 50%; }
+  @media (max-width: 767px) {
+    .slider__column {
+      width: 90%; } }
+
+.slider__description {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -909,44 +915,7 @@ accordeon__block_team_hidden {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 485px; }
-  @media (max-width: 767px) {
-    .burger__characters {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-      flex-direction: row;
-      height: 0; } }
-
-.consist {
-  width: 92px;
-  height: 92px; }
-
-.consist__image {
-  fill: #fff;
-  width: 3.8rem;
-  opacity: .5; }
-
-.title__kkal {
-  color: #fff;
-  font-size: 14px;
-  font-family: Gagalin;
-  padding: 0;
-  margin: 0;
-  position: absolute; }
-
-.slider__image {
-  padding-right: 20px;
-  /*width: 462px;*/ }
-
-.slider__description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
+  height: 365px; }
 
 .slider__description_title {
   color: #ffffff;
@@ -954,11 +923,10 @@ accordeon__block_team_hidden {
   font-size: 72px;
   font-weight: 400;
   line-height: 63.93px;
-  padding-bottom: 56px; }
+  margin: 0; }
   @media (max-width: 767px) {
     .slider__description_title {
       font-size: 2,125rem;
-      margin: 0;
       margin-top: 1.5rem; } }
 
 .slider__description_content {
@@ -991,6 +959,44 @@ accordeon__block_team_hidden {
   letter-spacing: -1.79px;
   letter-spacing: -0.75px; }
 
+.consist {
+  position: absolute;
+  width: 90px;
+  height: 90px; }
+
+/*
+.burger__characters {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 485px;
+
+    @include phone {
+        flex-direction: row;
+        height: 0;
+    }
+}
+
+
+
+.title__kkal {
+    color: #fff;
+    font-size: 14px;
+    font-family: Gagalin;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.slider__image {
+    padding-right: 20px;
+    /*width: 462px;
+}
+
+
+
+
+*/
 .owl-carousel {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1067,7 +1073,7 @@ section {
   font-style: normal; }
 
 .arrow {
-  width: 70px;
+  width: 50px;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
